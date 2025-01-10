@@ -1,20 +1,20 @@
 #include<iostream>
 using namespace std;
 int main(){
-    //i = 1 to n and
-    //j = 1 to i then triangle shape
+    //floyed triangle
 
     int row, col;
     cout<<"Enter number of rows : "<<endl;
     cin>>row;
-   
+    int k=1;
     
     for (int i = 1; i <= row; i++)
     {
-        for (int j = 1; j <= i; j++) //i can also be used but it's not good
+        for (int j = 1; j <= i; j++) 
 
         {
-            cout<<"*";//add j here for number for d
+            cout<<k<<" ";
+            k++;
            
         }
         cout<<endl;

@@ -9,15 +9,15 @@ int main(){
     cin>>row;
    
     
-    for (int i = 1; i <= row; i++)
+    for (int i = 1; i <= row; i++ )
     {
-        for (int j =1; j<=row+1-i ; j++) //i can also be used but it's not good
+        for (int j =1; j<=row+1-i ; j++) // j<=row+1-i 
 
         {
             cout<<"*";
            
         }
-        cout<<endl;
+        cout<<endl;          
     }    
 
 }

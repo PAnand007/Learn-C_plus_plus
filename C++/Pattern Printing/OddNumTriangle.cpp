@@ -11,10 +11,12 @@ int main(){
     
     for (int i = 1; i <= row; i++)
     {
-        for (int j = 1; j <= i; j++) //i can also be used but it's not good
+        int a =1; 
+        for (int j = 1; j <= i; j++) //j <= 2*i+1; j+=2 can also be used but it's not good enough
 
         {
-            cout<<"*";//add j here for number for d
+            cout<<a;//add j here for number for d
+            a+=2;
            
         }
         cout<<endl;
