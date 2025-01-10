@@ -11,12 +11,19 @@ int main(){
     
     for (int i = 1; i <= row; i++ )
     {
-        for (int j =1; j<=row+1-i ; j++) // j<=row+1-i 
+        //spaces
+        for (int j =1; j<=row-i ; j++) // j<=row+1-i 
 
         {
-            cout<<"*";
+            cout<<" ";
            
         }
+        //stars
+        for (int k = 1; k <=row ; k++)
+        {
+            cout<<"*";
+        }
+        
         cout<<endl;          
     }    
 
