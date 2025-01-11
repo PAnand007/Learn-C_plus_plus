@@ -14,14 +14,15 @@ int main(){
     {
         for (int j = 1; j <=2*n-1 ; j++)
         {
+            //psudo codes for spiral
             int a = i;
             int b = j;
             if (a>n) a = 2*n-i;
-          
-              
-             if (a<n) b = 2*n-j;
+            if (b>n) b = 2*n-j;
+
+            int p =min(a,b);
             
-            cout<<min(a,b);
+            cout<<n-p+1;// p for reverse spriral
 
         }
         
