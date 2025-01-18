@@ -20,3 +20,15 @@ int main(){
      int *ptr2 = &lastDigit;
      find(n, ptr1, ptr2);
      cout<<firstDigit<<" "<<lastDigit<<endl;
+
+    // int n;
+    // cin >> n;
+    // int l = n % 10;
+    // while (n>10)
+    // {
+    //     n = n / 10;
+    // }
+    // cout<<"Last : "<<l<<" First : "<<n<<endl;
+
+
+}

@@ -16,18 +16,4 @@ int main(){
     cin>>b;
     swap(a,b);//not working
     cout<<a<<" "<<b;
-
-
-
-    // a = a + b;
-    // b = a - b;
-    // a = a - b;
-    // cout<<a<<" "<<b;
-
-
-    // int temp = a;
-    // a = b;
-    // b = temp;
-    // cout<<a<<" "<<b;
-
 }
