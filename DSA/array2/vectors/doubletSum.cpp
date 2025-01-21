@@ -13,8 +13,7 @@ int main(){
      for (int j = i+1; j < v.size() ; j++) {
        if (v[i]+v[j]==x)
        {
-        cout<<"Doublet found: "<<v[i]<<" "<<v[j]<<" on indexes: "<<i<<" "<<j<<endl;
-        flag = true;
+        
        }  
     }  
   } 
