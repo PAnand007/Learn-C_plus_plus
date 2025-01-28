@@ -15,7 +15,7 @@ int main() {
     // multiplication possibilty
     if (cols_arr == rows_arr2) {
         cout << "Matrix multiplication is possible." << endl;
-        // Use vector instead of fixed-size array
+        // Use Multiplication
          vector<vector<int>> nextarr(rows_arr, vector<int>(cols_arr2, 0));
         for (int i = 0; i < rows_arr; i++) {
             for (int j = 0; j < cols_arr2; j++) {
