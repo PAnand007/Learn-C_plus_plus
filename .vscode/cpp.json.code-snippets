@@ -1,0 +1,17 @@
+{
+    "cp-extension": {
+        "prefix": ["ccc"],
+        "body": [
+            "#include<iostream>",
+			"",
+			"using namespace std;",
+				"",
+			"int main(){",
+				"",
+				"",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Default C++ code for competitive programming"
+    }
+}
