@@ -17,9 +17,9 @@ int main() {
     while (low <= high) {
         int mid = low + (high - low) / 2;
 
-       if (mid * mid == sqrt) { //mid * mid is very large so use mid = sqrt/mid;
+       if (mid * mid == sqrt) {
             result = mid;
-            break;
+            break;   
        } else if (mid * mid < sqrt) {
             low = mid + 1;
             result = mid;
