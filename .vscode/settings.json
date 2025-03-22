@@ -6,6 +6,7 @@
     "vector": "cpp",
     "algorithm": "cpp",
     "xstring": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "ios": "cpp"
   }
 }

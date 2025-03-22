@@ -1,1 +1,1 @@
- cout<<a;  
+ // Store only subsets of size 3
