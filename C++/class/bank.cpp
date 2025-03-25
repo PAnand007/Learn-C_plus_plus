@@ -45,7 +45,7 @@ public:
 int main() {
     bank user;
     user.name();
-
+ 
     int choice;
     do {
         cout << "\n--- Menu ---\n";

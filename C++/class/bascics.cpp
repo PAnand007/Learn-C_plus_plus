@@ -59,7 +59,7 @@ int main() {
             user.deposite();
             break;
         case 2:
-            user.withdraw();
+            user.withdraw(); 
             break;
         case 3:
             user.display();
