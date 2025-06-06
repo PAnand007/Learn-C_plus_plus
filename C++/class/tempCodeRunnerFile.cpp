@@ -1,1 +1,1 @@
-const
+ Complex operator+(const Complex& other)
